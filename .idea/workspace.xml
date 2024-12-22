@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f2adb8-1ef5-47b6-a170-a56bb47435bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fruittables/.idea/fruittables.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fruittables/fruit_ecommercec_admin/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/target/Fruittables-main.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/target/Fruittables-main/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/target/Fruittables-main/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fruittables-main/target/Fruittables-main/index.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="76f2adb8-1ef5-47b6-a170-a56bb47435bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,6 +271,7 @@
       <workItem from="1731166960711" duration="116000" />
       <workItem from="1731904818026" duration="947000" />
       <workItem from="1731905807830" duration="34000" />
+      <workItem from="1734859864384" duration="2000" />
     </task>
     <servers />
   </component>
