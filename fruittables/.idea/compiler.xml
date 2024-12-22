@@ -8,13 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fruit_ecommerce" />
         <module name="fruit_ecommercec_admin" />
-        <module name="Fruittables-main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fruit_ecommerce" target="10" />
       <module name="fruit_ecommercec_admin" target="1.5" />
-      <module name="Fruittables-main" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

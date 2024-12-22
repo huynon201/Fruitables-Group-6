@@ -17,7 +17,7 @@ public class OrderMapper implements RowMapper<Orders> {
 //         orders.setTotalProduct(rs.getDouble("total_product"));
 // =======
         orders.setOrderId(rs.getInt("id"));
-        orders.setFullName(rs.getString("fullname"));
+//        orders.setFullName(rs.getString("fullname"));
         orders.setTotal(rs.getDouble("total_price"));
         orders.setQuantity(rs.getInt("total_product"));
         orders.setCreateDay(rs.getDate("createDay"));

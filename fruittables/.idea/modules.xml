@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fruit_ecommercec_admin/Fruittables-main.iml" filepath="$PROJECT_DIR$/fruit_ecommercec_admin/Fruittables-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/fruit_ecommerce/fruit_ecommerce.iml" filepath="$PROJECT_DIR$/fruit_ecommerce/fruit_ecommerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/fruit_ecommercec_admin/fruit_ecommercec_admin.iml" filepath="$PROJECT_DIR$/fruit_ecommercec_admin/fruit_ecommercec_admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fruittables.iml" filepath="$PROJECT_DIR$/.idea/fruittables.iml" />

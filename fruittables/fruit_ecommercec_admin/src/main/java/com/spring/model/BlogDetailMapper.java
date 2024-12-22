@@ -12,7 +12,7 @@ public class BlogDetailMapper implements RowMapper<BlogDetail> {
         blogDetail.setId(rs.getInt("id"));
         blogDetail.setTitle(rs.getString("title"));
         blogDetail.setContent(rs.getString("content"));
-        blogDetail.setDescription(rs.getString("description"));
+//        blogDetail.setDescription(rs.getString("description"));
         blogDetail.setBlogImg(rs.getString("blog_img"));
         blogDetail.setCreateAt(rs.getDate("create_at"));
         blogDetail.setBlogId(rs.getInt("blog_id"));
