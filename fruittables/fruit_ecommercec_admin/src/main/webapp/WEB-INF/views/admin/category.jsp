@@ -51,8 +51,8 @@
 
             <td>${category.cateName}</td>
             <td>
-              <c:if test="${category.enable eq 'true'}">Enable</c:if>
-              <c:if test="${category.enable eq 'false'}">Disable</c:if>
+              <c:if test="${category.enable eq 'true'}">Hoạt động</c:if>
+              <c:if test="${category.enable eq 'false'}">Ngưng</c:if>
             </td>
             <td>
               <a href="${pageContext.request.contextPath}/category/edit/${category.cateId}" class="me-4"><i class="fa-solid fa-arrows-rotate"></i></a>

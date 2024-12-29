@@ -7,12 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    <title>Order</title>
+    <title>Đơn Hàng</title>
 
 <body>
 <div class="col-sm-12 col-xl-12">
     <div class="bg-light rounded h-100 p-4">
-        <h6 class="mb-4">Orders</h6>
+        <h6 class="mb-4">Đơn Hàng</h6>
 
         <table class="table table-hover">
             <thead>
@@ -40,17 +40,17 @@
                             <input type="hidden" name="orderId" value="${item.orderId}" />
                             <select class="form-select" aria-label="Default select example" name="status" onchange="this.form.submit()">
                                 <option selected>${item.status}</option>
-                                <c:if test="${item.status != 'Delivering'}">
-                                    <option value="Delivering">Delivering</option>
+                                <c:if test="${item.status != 'Vận chuyển'}">
+                                    <option value="Vận chuyển">Vận chuyển</option>
                                 </c:if>
-                                <c:if test="${item.status != 'Preparing'}">
-                                    <option value="Preparing">Preparing</option>
+                                <c:if test="${item.status != 'Chuẩn bị'}">
+                                    <option value="Chuẩn bị">Chuẩn bị</option>
                                 </c:if>
-                                <c:if test="${item.status != 'Fulfilled'}">
-                                    <option value="Fulfilled">Fulfilled</option>
+                                <c:if test="${item.status != 'Hoàn thành'}">
+                                    <option value="Hoàn thành">Hoàn thành</option>
                                 </c:if>
-                                <c:if test="${item.status != 'Rejected'}">
-                                    <option value="Rejected">Rejected</option>
+                                <c:if test="${item.status != 'Hủy'}">
+                                    <option value="Hủy">Hủy</option>
                                 </c:if>
                             </select>
                         </form>

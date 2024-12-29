@@ -45,13 +45,13 @@
 <!-- Fruits Shop Start-->
 <div class="container-fluid fruite py-5">
     <div class="container py-5">
-        <h1 class="mb-4">Fresh fruits shop</h1>
+        <h1 class="mb-4">Cửa hàng hoa quả tươi</h1>
         <div class="row g-4">
             <div class="col-lg-12">
                 <div class="row g-4">
                     <div class="col-xl-3">
                         <div class="input-group w-100 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords"
+                            <input type="search" class="form-control p-3" placeholder=""
                                    aria-describedby="search-icon-1">
                             <span class="input-group-text p-3"><i class="fa fa-search"></i></span>
                         </div>
@@ -59,13 +59,13 @@
                     <div class="col-6"></div>
                     <div class="col-xl-3">
                         <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
-                            <label for="fruits">Default Sorting:</label>
+                            <label for="fruits">Sắp xếp mặc định:</label>
                             <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3"
                                     form="fruitform">
-                                <option value="volvo">Nothing</option>
-                                <option value="saab">Popularity</option>
-                                <option value="opel">Organic</option>
-                                <option value="audi">Fantastic</option>
+                                <option value="volvo">Không</option>
+                                <option value="saab">Phổ biến</option>
+                                <option value="opel">Hữu cơ</option>
+                                <option value="audi">Tuyệt vời</option>
                             </select>
                         </div>
                     </div>
@@ -101,32 +101,24 @@
 <%--                            </div>--%>
                             <div class="col-lg-12">
                                 <div class="mb-3">
-                                    <h4>Additional</h4>
+                                    <h4>Thêm</h4>
                                     <div class="mb-2">
                                         <input type="radio" class="me-2" id="Categories-1" name="Categories-1"
                                                value="Beverages">
-                                        <label for="Categories-1"> Organic</label>
+                                        <label for="Categories-1"> Hữu cơ</label>
                                     </div>
                                     <div class="mb-2">
                                         <input type="radio" class="me-2" id="Categories-2" name="Categories-1"
                                                value="Beverages">
-                                        <label for="Categories-2"> Fresh</label>
+                                        <label for="Categories-2"> Tươi</label>
                                     </div>
                                     <div class="mb-2">
                                         <input type="radio" class="me-2" id="Categories-3" name="Categories-1"
                                                value="Beverages">
-                                        <label for="Categories-3"> Sales</label>
+                                        <label for="Categories-3"> Giảm giá</label>
                                     </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-4" name="Categories-1"
-                                               value="Beverages">
-                                        <label for="Categories-4"> Discount</label>
-                                    </div>
-                                    <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-5" name="Categories-1"
-                                               value="Beverages">
-                                        <label for="Categories-5"> Expired</label>
-                                    </div>
+
+
                                 </div>
                             </div>
 
@@ -163,8 +155,7 @@
                                                 <p class="text-dark fs-5 fw-bold mb-0">${item.productPrice} VND/KG</p><br>
                                                 <a href="${pageContext.request.contextPath}/addCart/${item.productId}/1"
                                                    class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                    cart</a>
+                                                        class="fa fa-shopping-bag me-2 text-primary"></i> Thêm giỏ hàng</a>
                                             </div>
                                         </div>
                                     </div>

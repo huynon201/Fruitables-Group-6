@@ -31,8 +31,8 @@
         <label for="enable">Status</label>
         <form:select path="enable" id="enable" class="custom-select tm-select-accounts" required="true">
           <option value="" disabled>Select status</option>
-          <option value="true" ${categories.enable == 'true' ? 'selected' : ''}>Enabled</option>
-          <option value="false" ${categories.enable == 'false' ? 'selected' : ''}>Disabled</option>
+          <option value="true" ${categories.enable == 'true' ? 'selected' : ''}>Hoạt động</option>
+          <option value="false" ${categories.enable == 'false' ? 'selected' : ''}>Ngưng hoạt động</option>
         </form:select>
       </div>
       <a href="${pageContext.request.contextPath}/category/1" class="btn btn-secondary">Trở lại</a>

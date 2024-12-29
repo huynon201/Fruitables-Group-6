@@ -18,12 +18,12 @@
 <body>
 <div class="col-sm-12 col-xl-12">
     <div class="bg-light rounded h-100 p-4">
-        <h6 class="mb-4">Product</h6>
+        <h6 class="mb-4">Sản phẩm</h6>
         <div class="d-flex justify-content-between">
-            <a href="addproduct" class="btn btn-primary mb-2"><span>+</span> Add new product</a>
+            <a href="addproduct" class="btn btn-primary mb-2"><span>+</span> Thêm sản phẩm mới</a>
             <div>
                 <a class="btn btn-primary" href="bestSeller">Sản phẩm bán chạy</a>
-                <a class="btn btn-primary" href="poorlySeller">Sản phẩm bán ế</a>
+                <a class="btn btn-primary" href="poorlySeller">Sản phẩm bán chậm</a>
             </div>
         </div>
 

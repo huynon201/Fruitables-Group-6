@@ -19,9 +19,9 @@
                                                                                           class="text-white">Nhom6@gmail.com</a></small>
             </div>
             <div class="top-link pe-2">
-                <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
-                <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
-                <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                <a href="#" class="text-white"><small class="text-white mx-2">Chính sách</small>/</a>
+                <a href="#" class="text-white"><small class="text-white mx-2">Điều khoản sử dụng</small>/</a>
+                <a href="#" class="text-white"><small class="text-white ms-2">Giảm giá và đổi trả</small></a>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                             </c:forEach>
                         </div>
                     </div>
-                    <a href="${pageContext.request.contextPath}/newsale" class="nav-item nav-link"><b>New & Sale</b></a>
+                    <a href="${pageContext.request.contextPath}/newsale" class="nav-item nav-link"><b>Tin tức & Giảm giá</b></a>
                     <a href="${pageContext.request.contextPath}/contact" class="nav-item nav-link">Liên hệ</a>
 
                     <div class="nav-item dropdown">

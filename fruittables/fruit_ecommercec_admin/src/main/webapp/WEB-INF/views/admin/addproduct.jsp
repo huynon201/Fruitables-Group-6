@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<title>Add new product</title>
+<title>Thêm sản phẩm mới</title>
 <body>
 <div class="col-sm-12 col-xl-12">
     <div class="bg-light rounded h-100 p-4">
@@ -12,7 +12,7 @@
                     <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
                         <div class="row">
                             <div class="col-12">
-                                <h2 class="tm-block-title d-inline-block">Add Product</h2>
+                                <h2 class="tm-block-title d-inline-block">Thêm sản phẩm mới</h2>
                             </div>
                         </div>
 
@@ -21,7 +21,7 @@
                                 <form:form action="addproduct" method="post" class="tm-edit-product-form" modelAttribute="product" enctype="multipart/form-data">
 
                                     <div class="form-group mb-3">
-                                        <label for="name">Product Name</label>
+                                        <label for="name">Tên sản phẩm</label>
                                         <form:input
                                                 id="name"
                                                 type="text"
@@ -32,7 +32,7 @@
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label>Description</label>
+                                        <label>Mô tả</label>
                                         <form:input
                                                 class="form-control validate tm-small"
                                                 required="true"
@@ -41,9 +41,9 @@
                                     </div>
 
                                     <div class="form-group mb-3">
-                                        <label for="category">Category</label>
+                                        <label for="category">Danh mục</label>
                                         <form:select class="custom-select tm-select-accounts" id="category" required="true" path="cateId">
-                                            <option>Select category</option>
+                                            <option>Chọn danh mục</option>
                                             <c:forEach var="cate" items="${category}">
                                                 <option value="${cate.cateId}">${cate.cateName}</option>
                                             </c:forEach>
@@ -52,7 +52,7 @@
 
                                     <div class="row">
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="price">Price</label>
+                                            <label for="price">Giá</label>
                                             <form:input
                                                     id="price"
                                                     type="text"
@@ -62,7 +62,7 @@
                                             />
                                         </div>
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="stock">Units In Stock</label>
+                                            <label for="stock">Số lượng trong kho</label>
                                             <form:input
                                                     id="stock"
                                                     path="quantity"
@@ -75,7 +75,7 @@
 
                                     <div class="row">
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="sales">Sale</label>
+                                            <label for="sales">Giảm giá</label>
                                             <form:input
                                                     id="sales"
                                                     path="sale"
@@ -96,7 +96,7 @@
 
                                     <div class="row">
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="create_date">Create Date</label>
+                                            <label for="create_date">Ngày tạo</label>
                                             <form:input
                                                     id="create_date"
                                                     path="createDate"
@@ -106,7 +106,7 @@
                                             />
                                         </div>
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="expire_date">Expire Date</label>
+                                            <label for="expire_date">Ngày hết hạn</label>
                                             <form:input
                                                     id="expire_date"
                                                     path="expDate"
@@ -141,7 +141,7 @@
 <%--======= -->--%>
                                     <div class="row">
                                         <div class="form-group mb-3 col-xs-12 col-sm-6">
-                                            <label for="sell_quantity">Sell Quantity</label>
+                                            <label for="sell_quantity">Số lượng bán</label>
                                             <form:input
                                                     id="sell_quantity"
                                                     path="sell_quantity"
@@ -163,7 +163,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Add Product</button>
+                                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Thêm sản phẩm</button>
                                     </div>
                                 </form:form>
 <!-- >>>>>>> main -->

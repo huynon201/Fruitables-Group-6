@@ -78,10 +78,10 @@
                                 <select class="form-select" aria-label="Default select example" name="userStatus" onchange="this.form.submit()">
                                     <option selected>${user.cusEnable}</option>
                                     <c:if test="${user.cusEnable != 'active'}">
-                                        <option value="active">Active</option>
+                                        <option value="active">Hoạt động</option>
                                     </c:if>
                                     <c:if test="${user.cusEnable != 'disable'}">
-                                        <option value="disable">Disable</option>
+                                        <option value="disable">Ngưng hoạt động</option>
                                     </c:if>
                                 </select>
                             </form>

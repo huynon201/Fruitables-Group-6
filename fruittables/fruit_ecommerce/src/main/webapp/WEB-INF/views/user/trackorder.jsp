@@ -28,7 +28,7 @@
                 <td style="height: 90px; vertical-align: middle">${order.status}</td>
                 <td style="height: 90px; vertical-align: middle">
 <%--                    <c:if test="${order.status != 'Rejected'}">--%>
-                        <a href="<c:url value="/trackorderdetail?orderId=${order.checkoutid}"/>">View order details</a>
+                        <a href="<c:url value="/trackorderdetail?orderId=${order.checkoutid}"/>">Xem chi tiết đơn</a>
 <%--                    </c:if>--%>
                 </td>
                 <td style="height: 90px; vertical-align: middle">
